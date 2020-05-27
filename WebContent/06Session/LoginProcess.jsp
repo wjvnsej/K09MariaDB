@@ -5,7 +5,7 @@
     pageEncoding="UTF-8"%>
  
 <%-- LoginProcess.jsp --%>
-
+ 
 <% 
 	String id = request.getParameter("user_id");
 	String pw = request.getParameter("user_pw");
