@@ -12,3 +12,8 @@ CREATE TABLE membership (
 
 INSERT INTO membership (id, pass, NAME, phone, email, zip, addr)
    VALUES ('wjvnsej','ehdrjs13','이동건','010-4893-9337','wjvnsej@hanmail.net','27931','충청북도 증평군 증평읍 교동리 102-2');
+   
+   
+SELECT id, join_date 
+FROM membership
+WHERE NAME = '이동건' AND email = 'wjvnsej@hanmail.net' AND grade != 'master' AND grade != 'manager';
