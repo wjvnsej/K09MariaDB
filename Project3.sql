@@ -75,13 +75,20 @@ SELECT title, postdate FROM multi_board WHERE bname = 'calenboard' ORDER BY post
 SELECT title, postdate FROM multi_board WHERE bname = 'calenboard';
 
 
+SELECT COUNT(*) FROM multi_board 	WHERE bname = 'calenboard';
 
 
-
-
-
-
-
-
+INSERT INTO multi_board (id, NAME, title, content, bname)
+   VALUES('wjvnsej', '이동건', '캘린더제목입니다1', '캘린더내용입니다1', 'calenboard');
+INSERT INTO multi_board (id, NAME, title, content, bname)
+   VALUES('wjvnsej', '이동건', '캘린더제목입니다2', '캘린더내용입니다2', 'calenboard');
+INSERT INTO multi_board (id, NAME, title, content, bname)
+   VALUES('wjvnsej', '이동건', '캘린더제목입니다3', '캘린더내용입니다3', 'calenboard');
+INSERT INTO multi_board (id, NAME, title, content, bname)
+   VALUES('wjvnsej', '이동건', '캘린더제목입니다4', '캘린더내용입니다4', 'calenboard');
+INSERT INTO multi_board (id, NAME, title, content, bname)
+   VALUES('wjvnsej', '이동건', '캘린더제목입니다5', '캘린더내용입니다5', 'calenboard');
+INSERT INTO multi_board (id, NAME, title, content, bname)
+   VALUES('wjvnsej', '이동건', '캘린더제목입니다6', '캘린더내용입니다6', 'calenboard');
 
 
