@@ -24,7 +24,7 @@ String content = request.getParameter("content");
 BbsDTO dto = new BbsDTO();
 dto.setNum(num);
 dto.setTitle(title);
-dto.setContent(content);
+dto.setContent(content); 
 
 BbsDAO dao = new BbsDAO(application);
 
