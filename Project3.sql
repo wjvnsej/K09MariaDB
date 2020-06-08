@@ -92,3 +92,25 @@ INSERT INTO multi_board (id, NAME, title, content, bname)
    VALUES('wjvnsej', '이동건', '캘린더제목입니다6', '캘린더내용입니다6', 'calenboard');
 
 
+
+
+
+SELECT * FROM membership
+   WHERE grade != 'user';
+
+
+
+ SELECT COUNT(*) FROM membership	WHERE grade LIKE 'user' ;
+
+
+SELECT * FROM shop_ordering;
+DELETE FROM shop_ordering WHERE idx = 19 AND name1 = ?
+
+
+
+
+
+
+
+
+

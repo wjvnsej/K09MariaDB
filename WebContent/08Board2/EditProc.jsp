@@ -39,7 +39,7 @@ else {
 %>
 	<script>
 		alert("수정하기에 실패하였습니다.");
-		histor.go(-1);
+		history.go(-1);
 	</script>
 <%
 }
